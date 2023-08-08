@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="http://127.0.0.1:5500/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Single Price Grid Component</title>
+  <link rel="stylesheet" href="Frontend%20Mentor%20Single%20Price%20Grid%20Component_files/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-section">
+    <h2>Join our community</h2>
+
+        <h3>30-day, hassle-free money back guarantee</h3>
+
+  <p>Gain access to our full library of tutorials along with expert code reviews.</p> 
+  <p>Perfect for any developers who are serious about honing their skills.</p>
+</div><div class="bottom-section">
+  <div class="left-section">
+ <h4> Monthly Subscription </h4>
+<div id="price"><div id="first-part">29$</div>
+<div id="second-part">per month</div></div><p>Full access for less than 1$ a day </p>
+
+<button class="btn"> Sign Up </button>
+</div><div class="right-section">
+  <h4>Why Us</h4>
+          <ul>
+
+<li>Tutorials by industry experts</li>
+<li>Peer &amp; expert code review</li>
+<li> Coding exercises</li>
+Access to our GitHub repos
+<li>Community forum</li>
+<li>Flashcard decks</li>
+<li>New videos every week</li>
+</ul>
+</div>
+</div>
+
+
+</div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io/?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/RawanSayedd" target="_blank">Rawan Sayed Aly</a>.
+    </p>
+  </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

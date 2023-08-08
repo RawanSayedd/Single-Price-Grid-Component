@@ -1,0 +1,117 @@
+html{
+    box-sizing: border-box;
+    font-family:'Karla', sans-serif;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    padding-left: 125px;
+    margin: 50px 50px 50px 50px;
+}
+h2,h4,p {
+    margin: 0;
+}
+.container{
+    border: 2px solid none;
+    width:1100px;
+    height: 700px;
+    box-shadow: 4px 4px 18px 0px rgba(0,0,0,0.54);
+    border-radius: 4px;
+    overflow: hidden;
+    
+}
+h2{
+    color: hsl(179, 62%, 43%);
+}
+h3{
+    color:hsl(71, 73%, 54%);
+}
+.top-section{
+    width: 100%;
+    height: 40%;
+    border: 2px solid none;
+    padding: 60px 60px 20px 60px;
+    margin: 25px;
+
+}
+.top-section p {
+    color:hsl(218, 22%, 67%);
+    margin-top: 10px;
+}
+
+.bottom-section{
+    width: 100%;
+    height: 60%;
+    border: 2px solid none;
+    display: flex;
+}
+.left-section{
+    width:50%;
+    height:100%;
+    border: 2px solid none;
+    padding: 60px 60px 20px 60px;
+    background-color: hsl(179, 62%, 43%);
+    color:aliceblue;
+}
+.left-section > p {
+    padding-left: 40px;
+}
+.left-section h4{
+    margin-bottom: 15px;
+}
+#first-part{
+    font-weight: 700; 
+    display: inline-block;
+    font-size: 30px;
+    padding-left: 30px;
+    margin: 10px;
+    display: inline-block;    
+}
+#second-part{
+    color:white;
+    display: inline-block;
+    position: relative;
+    top:-3px;
+    opacity: 0.8;
+}
+
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    color:whitesmoke;
+    width:250px;
+    height: 30px;
+    box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.36);
+    overflow: hidden;
+    margin: 25px;
+    margin-left: 35px;
+}
+.btn:hover{
+    background-color: #D6E490;
+    cursor: pointer;
+}
+
+.right-section{
+    width:50%;
+    height:100%;
+    border: 2px solid none;
+    padding: 60px 60px 20px 60px;
+    background-color: hsl(179, 62%, 43%);
+    opacity: 70%;
+    color:whitesmoke;
+}
+.right-section li {
+    opacity: 0.8;
+}
+ul {
+    list-style-type:none;
+    color:lightgray;
+}
+h4{
+    padding-left: 40px;
+}
+
+.attribution{
+    margin-top: 20px;
+    text-align: left;
+}
